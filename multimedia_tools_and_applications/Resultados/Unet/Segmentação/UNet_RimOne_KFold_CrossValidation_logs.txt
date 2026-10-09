@@ -1,0 +1,59 @@
+==================================================
+📊 DIÁRIO DE VALIDAÇÃO CRUZADA (5-FOLD): U-NET
+==================================================
+
+
+▶️ [FOLD 1/5] Separando subconjuntos de forma estratificada...
+   📌 Resultados do Fold 1:
+      - Tempo Computacional: 2345.55s | Loss: 0.1153
+      - [DISCO] Dice: 0.9586 | IoU: 0.9207
+      - [CUP]   Dice: 0.8471 | IoU: 0.7409
+--------------------------------------------------
+👑 Novo recorde de validação cruzada! Peso global atualizado: /home/daniel/Documents/Mestrado IFCE 2026/SBESC 2026/Unet/RIM_ONE_DL/MelhorModelo/UNet_MELHOR_PESO_PROJETO.pth
+
+▶️ [FOLD 2/5] Separando subconjuntos de forma estratificada...
+   📌 Resultados do Fold 2:
+      - Tempo Computacional: 1736.12s | Loss: 0.1405
+      - [DISCO] Dice: 0.9525 | IoU: 0.9097
+      - [CUP]   Dice: 0.8404 | IoU: 0.7287
+--------------------------------------------------
+
+▶️ [FOLD 3/5] Separando subconjuntos de forma estratificada...
+   📌 Resultados do Fold 3:
+      - Tempo Computacional: 2172.11s | Loss: 0.1370
+      - [DISCO] Dice: 0.9579 | IoU: 0.9195
+      - [CUP]   Dice: 0.8571 | IoU: 0.7534
+--------------------------------------------------
+👑 Novo recorde de validação cruzada! Peso global atualizado: /home/daniel/Documents/Mestrado IFCE 2026/SBESC 2026/Unet/RIM_ONE_DL/MelhorModelo/UNet_MELHOR_PESO_PROJETO.pth
+
+▶️ [FOLD 4/5] Separando subconjuntos de forma estratificada...
+   📌 Resultados do Fold 4:
+      - Tempo Computacional: 2676.42s | Loss: 0.1233
+      - [DISCO] Dice: 0.9575 | IoU: 0.9186
+      - [CUP]   Dice: 0.8347 | IoU: 0.7297
+--------------------------------------------------
+
+▶️ [FOLD 5/5] Separando subconjuntos de forma estratificada...
+
+▶️ [FOLD 5/5] Executando isoladamente o Fold pendente...
+   📌 Resultados do Fold 5 (Recuperado):
+      - Tempo Computacional: 1908.71s | Loss: 0.1436
+      - [DISCO] Dice: 0.9586 | IoU: 0.9206
+      - [CUP]   Dice: 0.8610 | IoU: 0.7586
+--------------------------------------------------
+
+============================================================
+📊 CONSOLIDAÇÃO FINAL DA VALIDAÇÃO CRUZADA U-NET (5-FOLD)
+============================================================
+🟢 DISCO ÓPTICO:
+   • Dice Médio: 0.9570 ± 0.0023
+   • IoU Médio:  0.9178 ± 0.0041
+🔵 ESCAVAÇÃO ÓPTICA (CUP):
+   • Dice Médio: 0.8481 ± 0.0099
+   • IoU Médio:  0.7423 ± 0.0121
+📉 LOSS DE TREINAMENTO:
+   • Média:      0.1319 ± 0.0108
+⏱️ DESEMPENHO COMPUTACIONAL TEMPORAL:
+   • Média por Fold: 2167.78s ± 329.78s
+   • Tempo Total:    180.65 minutos
+============================================================

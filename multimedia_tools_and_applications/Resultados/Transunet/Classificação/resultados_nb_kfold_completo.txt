@@ -1,0 +1,64 @@
+=====================================================================
+  RELATÓRIO DE VALIDAÇÃO CRUZADA E TESTE NAIVE BAYES - PORCENTAGEM (%) 
+=====================================================================
+
+Resultados Detalhados por Partição (Fold):
+ -> Fold 1:
+    - Acurácia:       84.810%
+    - Precisão:       89.655%
+    - Sensibilidade:  74.286%
+    - Especificidade: 93.182%
+    - F1-Score:       81.250%
+
+ -> Fold 2:
+    - Acurácia:       93.671%
+    - Precisão:       91.667%
+    - Sensibilidade:  94.286%
+    - Especificidade: 93.182%
+    - F1-Score:       92.958%
+
+ -> Fold 3:
+    - Acurácia:       82.278%
+    - Precisão:       80.000%
+    - Sensibilidade:  80.000%
+    - Especificidade: 84.091%
+    - F1-Score:       80.000%
+
+ -> Fold 4:
+    - Acurácia:       83.544%
+    - Precisão:       86.667%
+    - Sensibilidade:  74.286%
+    - Especificidade: 90.909%
+    - F1-Score:       80.000%
+
+ -> Fold 5:
+    - Acurácia:       76.923%
+    - Precisão:       72.973%
+    - Sensibilidade:  77.143%
+    - Especificidade: 76.744%
+    - F1-Score:       75.000%
+
+=====================================================================
+MÉTRICAS CONSOLIDADAS DA VALIDAÇÃO CRUZADA NAIVE BAYES (MÉDIA ± DP)
+=====================================================================
+ -> ACURÁCIA:       84.245% (± 5.425%)
+ -> PRECISÃO:       84.192% (± 6.860%)
+ -> SENSIBILIDADE:  80.000% (± 7.451%)
+ -> ESPECIFICIDADE: 87.622% (± 6.378%)
+ -> F1-SCORE:       81.842% (± 5.958%)
+
+=====================================================================
+       AVALIAÇÃO NO CONJUNTO DE TESTE INDEPENDENTE (REAL)            
+=====================================================================
+Acurácia no Teste:       87.647%
+Especificidade no Teste: 91.489%
+
+Relatório Detalhado de Classificação (Conjunto de Teste):
+              precision    recall  f1-score   support
+
+      Normal     0.8687    0.9149    0.8912        94
+    Glaucoma     0.8873    0.8289    0.8571        76
+
+    accuracy                         0.8765       170
+   macro avg     0.8780    0.8719    0.8742       170
+weighted avg     0.8770    0.8765    0.8760       170

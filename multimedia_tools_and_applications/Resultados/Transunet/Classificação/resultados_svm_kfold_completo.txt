@@ -1,0 +1,66 @@
+=====================================================================
+   RELATÓRIO DE VALIDAÇÃO CRUZADA E TESTE (SVM) - PORCENTAGEM (%)    
+=====================================================================
+
+Melhores Hiperparâmetros: {'C': 0.0625, 'gamma': 2, 'kernel': 'rbf'}
+
+Resultados Detalhados por Partição (Fold):
+ -> Fold 1:
+    - Acurácia:       88.608%
+    - Precisão:       82.500%
+    - Sensibilidade:  94.286%
+    - Especificidade: 84.091%
+    - F1-Score:       88.000%
+
+ -> Fold 2:
+    - Acurácia:       91.139%
+    - Precisão:       85.000%
+    - Sensibilidade:  97.143%
+    - Especificidade: 86.364%
+    - F1-Score:       90.667%
+
+ -> Fold 3:
+    - Acurácia:       91.139%
+    - Precisão:       83.333%
+    - Sensibilidade:  100.000%
+    - Especificidade: 84.091%
+    - F1-Score:       90.909%
+
+ -> Fold 4:
+    - Acurácia:       87.342%
+    - Precisão:       77.778%
+    - Sensibilidade:  100.000%
+    - Especificidade: 77.273%
+    - F1-Score:       87.500%
+
+ -> Fold 5:
+    - Acurácia:       83.333%
+    - Precisão:       75.000%
+    - Sensibilidade:  94.286%
+    - Especificidade: 74.419%
+    - F1-Score:       83.544%
+
+=====================================================================
+MÉTRICAS CONSOLIDADAS DA VALIDAÇÃO CRUZADA (MÉDIA ± DP)
+=====================================================================
+ -> ACURÁCIA:       88.312% (± 2.891%)
+ -> PRECISÃO:       80.722% (± 3.733%)
+ -> SENSIBILIDADE:  97.143% (± 2.556%)
+ -> ESPECIFICIDADE: 81.247% (± 4.578%)
+ -> F1-SCORE:       88.124% (± 2.668%)
+
+=====================================================================
+       AVALIAÇÃO NO CONJUNTO DE TESTE INDEPENDENTE (REAL)            
+=====================================================================
+Acurácia no Teste:       84.118%
+Especificidade no Teste: 79.787%
+
+Relatório Detalhado de Classificação (Conjunto de Teste):
+              precision    recall  f1-score   support
+
+      Normal     0.9036    0.7979    0.8475        94
+    Glaucoma     0.7816    0.8947    0.8344        76
+
+    accuracy                         0.8412       170
+   macro avg     0.8426    0.8463    0.8409       170
+weighted avg     0.8491    0.8412    0.8416       170

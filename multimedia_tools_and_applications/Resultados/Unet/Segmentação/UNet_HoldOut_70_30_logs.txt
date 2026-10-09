@@ -1,0 +1,27 @@
+==================================================
+📊 DIÁRIO DE TREINAMENTO HOLD-OUT (70/30): U-NET
+==================================================
+
+📦 Carregando base de dados via varredura direta de diretórios...
+   • Total de imagens para Treino: 339
+   • Total de imagens para Teste:  146
+
+🚀 Iniciando treinamento do pipeline Hold-Out da U-Net...
+
+============================================================
+📊 CONSOLIDAÇÃO FINAL DO EXPERIMENTO HOLD-OUT (70/30) - U-NET
+============================================================
+⏱️ Tempo de Execução Total: 38.26 minutos
+📉 Loss Final de Treino:    0.1201
+
+🟢 DISCO ÓPTICO (DO):
+   • Dice Score: 0.9567
+   • IoU (Jaccard): 0.9172
+
+🔵 ESCAVAÇÃO ÓPTICA (EO / CUP):
+   • Dice Score: 0.8623
+   • IoU (Jaccard): 0.7606
+============================================================
+👑 Modelo ótimo exportado com sucesso para:
+📂 /home/daniel/Documents/Mestrado IFCE 2026/SBESC 2026/Unet/RIM_ONE_DL/MelhorModelo/UNet_MELHOR_PESO_HOLDOUT.pth
+

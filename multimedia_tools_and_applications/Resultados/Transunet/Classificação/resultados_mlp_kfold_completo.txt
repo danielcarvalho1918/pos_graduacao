@@ -1,0 +1,66 @@
+=====================================================================
+    RELATÓRIO DE VALIDAÇÃO CRUZADA E TESTE MLP - PORCENTAGEM (%)     
+=====================================================================
+
+Melhores Hiperparâmetros: {'activation': 'tanh', 'alpha': 0.1, 'hidden_layer_sizes': (100,), 'learning_rate_init': 0.05, 'max_iter': 1000}
+
+Resultados Detalhados por Partição (Fold):
+ -> Fold 1:
+    - Acurácia:       91.139%
+    - Precisão:       88.889%
+    - Sensibilidade:  91.429%
+    - Especificidade: 90.909%
+    - F1-Score:       90.141%
+
+ -> Fold 2:
+    - Acurácia:       89.873%
+    - Precisão:       84.615%
+    - Sensibilidade:  94.286%
+    - Especificidade: 86.364%
+    - F1-Score:       89.189%
+
+ -> Fold 3:
+    - Acurácia:       86.076%
+    - Precisão:       81.579%
+    - Sensibilidade:  88.571%
+    - Especificidade: 84.091%
+    - F1-Score:       84.932%
+
+ -> Fold 4:
+    - Acurácia:       88.608%
+    - Precisão:       79.545%
+    - Sensibilidade:  100.000%
+    - Especificidade: 79.545%
+    - F1-Score:       88.608%
+
+ -> Fold 5:
+    - Acurácia:       78.205%
+    - Precisão:       72.500%
+    - Sensibilidade:  82.857%
+    - Especificidade: 74.419%
+    - F1-Score:       77.333%
+
+=====================================================================
+MÉTRICAS CONSOLIDADAS DA VALIDAÇÃO CRUZADA MLP (MÉDIA ± DP)
+=====================================================================
+ -> ACURÁCIA:       86.780% (± 4.603%)
+ -> PRECISÃO:       81.426% (± 5.461%)
+ -> SENSIBILIDADE:  91.429% (± 5.714%)
+ -> ESPECIFICIDADE: 83.066% (± 5.668%)
+ -> F1-SCORE:       86.040% (± 4.698%)
+
+=====================================================================
+       AVALIAÇÃO NO CONJUNTO DE TESTE INDEPENDENTE (REAL)            
+=====================================================================
+Acurácia no Teste:       90.588%
+Especificidade no Teste: 92.553%
+
+Relatório Detalhado de Classificação (Conjunto de Teste):
+              precision    recall  f1-score   support
+
+      Normal     0.9062    0.9255    0.9158        94
+    Glaucoma     0.9054    0.8816    0.8933        76
+
+    accuracy                         0.9059       170
+   macro avg     0.9058    0.9036    0.9046       170
+weighted avg     0.9059    0.9059    0.9058       170

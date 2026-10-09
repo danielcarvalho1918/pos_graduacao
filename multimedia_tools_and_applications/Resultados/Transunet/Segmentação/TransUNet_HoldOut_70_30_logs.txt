@@ -1,0 +1,27 @@
+==================================================
+📊 DIÁRIO DE TREINAMENTO HOLD-OUT (70/30): TRANSUNET
+==================================================
+
+📦 Carregando base de dados via varredura direta de diretórios...
+   • Total de imagens para Treino: 339
+   • Total de imagens para Teste:  146
+
+🚀 Iniciando treinamento do pipeline Hold-Out da TransUNet...
+
+============================================================
+📊 CONSOLIDAÇÃO FINAL DO EXPERIMENTO HOLD-OUT (70/30) - TRANSUNET
+============================================================
+⏱️ Tempo de Execução Total: 36.41 minutos
+📉 Loss Final de Treino:    0.0776
+
+🟢 DISCO ÓPTICO (DO):
+   • Dice Score: 0.9562
+   • IoU (Jaccard): 0.9165
+
+🔵 ESCAVAÇÃO ÓPTICA (EO / CUP):
+   • Dice Score: 0.8661
+   • IoU (Jaccard): 0.7665
+============================================================
+👑 Modelo ótimo exportado com sucesso para:
+📂 /home/daniel/Documents/Mestrado IFCE 2026/SBESC 2026/TransUnet/RIM_ONE_DL/MelhorModelo/TransUNet_MELHOR_PESO_HOLDOUT.pth
+

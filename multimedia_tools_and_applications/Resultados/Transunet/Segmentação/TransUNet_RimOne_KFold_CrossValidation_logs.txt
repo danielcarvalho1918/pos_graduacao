@@ -1,0 +1,58 @@
+==================================================
+📊 DIÁRIO DE VALIDAÇÃO CRUZADA (5-FOLD): TRANSUNET
+==================================================
+
+
+▶️ [FOLD 1/5] Separando subconjuntos de forma estratificada...
+   📌 Resultados do Fold 1:
+      - Tempo Computacional: 1532.15s | Loss: 0.0740
+      - [DISCO] Dice: 0.9595 | IoU: 0.9224
+      - [CUP]   Dice: 0.8524 | IoU: 0.7501
+--------------------------------------------------
+👑 Novo recorde de validação cruzada! Peso global atualizado: /home/daniel/Documents/Mestrado IFCE 2026/SBESC 2026/TransUnet/RIM_ONE_DL/MelhorModelo/TransUNet_MELHOR_PESO_PROJETO.pth
+
+▶️ [FOLD 2/5] Separando subconjuntos de forma estratificada...
+   📌 Resultados do Fold 2:
+      - Tempo Computacional: 949.31s | Loss: 0.1099
+      - [DISCO] Dice: 0.9521 | IoU: 0.9089
+      - [CUP]   Dice: 0.8434 | IoU: 0.7338
+--------------------------------------------------
+
+▶️ [FOLD 3/5] Separando subconjuntos de forma estratificada...
+   📌 Resultados do Fold 3:
+      - Tempo Computacional: 1184.46s | Loss: 0.0908
+      - [DISCO] Dice: 0.9606 | IoU: 0.9244
+      - [CUP]   Dice: 0.8602 | IoU: 0.7576
+--------------------------------------------------
+👑 Novo recorde de validação cruzada! Peso global atualizado: /home/daniel/Documents/Mestrado IFCE 2026/SBESC 2026/TransUnet/RIM_ONE_DL/MelhorModelo/TransUNet_MELHOR_PESO_PROJETO.pth
+
+▶️ [FOLD 4/5] Separando subconjuntos de forma estratificada...
+   📌 Resultados do Fold 4:
+      - Tempo Computacional: 2162.96s | Loss: 0.0707
+      - [DISCO] Dice: 0.9584 | IoU: 0.9205
+      - [CUP]   Dice: 0.8515 | IoU: 0.7471
+--------------------------------------------------
+
+▶️ [FOLD 5/5] Separando subconjuntos de forma estratificada...
+   📌 Resultados do Fold 5:
+      - Tempo Computacional: 1469.85s | Loss: 0.0767
+      - [DISCO] Dice: 0.9595 | IoU: 0.9223
+      - [CUP]   Dice: 0.8714 | IoU: 0.7755
+--------------------------------------------------
+👑 Novo recorde de validação cruzada! Peso global atualizado: /home/daniel/Documents/Mestrado IFCE 2026/SBESC 2026/TransUnet/RIM_ONE_DL/MelhorModelo/TransUNet_MELHOR_PESO_PROJETO.pth
+
+============================================================
+📊 CONSOLIDAÇÃO FINAL DA VALIDAÇÃO CRUZADA TRANSUNET (5-FOLD)
+============================================================
+🟢 DISCO ÓPTICO:
+   • Dice Médio: 0.9580 ± 0.0030
+   • IoU Médio:  0.9197 ± 0.0055
+🔵 ESCAVAÇÃO ÓPTICA (CUP):
+   • Dice Médio: 0.8558 ± 0.0094
+   • IoU Médio:  0.7528 ± 0.0137
+📉 LOSS DE TREINAMENTO:
+   • Média:      0.0844 ± 0.0145
+⏱️ DESEMPENHO COMPUTACIONAL TEMPORAL:
+   • Média por Fold: 1459.75s ± 408.95s
+   • Tempo Total:    121.65 minutos
+============================================================
